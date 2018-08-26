@@ -1,4 +1,4 @@
-package com.unreal.security.unrealsecuritybrowser;
+package com.unreal.security.browser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

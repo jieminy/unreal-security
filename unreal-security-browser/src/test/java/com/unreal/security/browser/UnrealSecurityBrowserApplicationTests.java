@@ -1,4 +1,4 @@
-package com.unreal.security.unrealsecuritybrowser;
+package com.unreal.security.browser;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
