@@ -1,7 +1,6 @@
 package com.unreal.security.demo.web.filter;
 
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
 
 import javax.servlet.*;
 import java.io.IOException;
@@ -13,7 +12,7 @@ import java.util.Date;
  * @Date: created in 19:45 2018/8/18
  */
 @Slf4j
-@Component
+//@Component
 public class TimeFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {

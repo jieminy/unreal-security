@@ -3,7 +3,6 @@ package com.unreal.security.demo.web.config;
 import com.unreal.security.demo.web.filter.TimeFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +12,7 @@ import java.util.List;
  * @Description:
  * @Date: created in 16:21 2018/8/25
  */
-@Configuration
+//@Configuration
 public class FilterConfig {
     @Bean
     public FilterRegistrationBean timeFilter(){
